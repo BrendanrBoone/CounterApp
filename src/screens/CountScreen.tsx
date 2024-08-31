@@ -16,6 +16,7 @@ export default function CountScreen() {
 
     let n: number = 0;
 
+    //Testing if I can combine activity of my PC and laptop
     const incrementFunction = (): void => {
         n += 1;
     }
