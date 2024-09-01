@@ -11,36 +11,34 @@ import {
 } from "react-native";
 import { DemoButton } from "../components/ui/DemoButton";
 import defined_colors from "../components/ui/colors";
+import { PlayerButton } from "../components/ui/PlayerButton";
 
+/**
+ * Main idea of app. It is a streak app for whatever its purpose.
+ * It is supposed to incentivise consistency. holds the longest
+ * recorded streak somewhere on the screen.
+ * features to make:
+ *  - longest streak counter
+ *  - reset button
+ *  - Firebase support
+ *  - Notification to user
+ * @returns Main Screen of App
+ */
 export default function CountScreen() {
 
-    let n: number = 0;
+    const [n, setN] = useState(0);
 
-    //Testing if I can combine activity of my PC and laptop
     const incrementFunction = (): void => {
-        n += 1;
+        setN(n + 1);
     }
 
     return (
         <SafeAreaView style={styles.container}>
-            <View style={{height: 100, width: 185, alignContent: 'flex-start'}}>
-                <DemoButton
-                key="number" 
-                onPress={() => {incrementFunction()}}
-                color={defined_colors.dark_grey}
-                color_pressed={defined_colors.black}>
-                    {n}
-                </DemoButton>
-            </View>
-            <View style={{ height: 250, width: 185, justifyContent: 'center' }}>
-                <DemoButton 
-                key="increment" 
-                onPress={() => {incrementFunction()}}
-                color={defined_colors.dark_grey}
-                color_pressed={defined_colors.black}>
-                    {"+"}
-                </DemoButton>
-            </View>
+            <PlayerButton onPress={incrementFunction}
+            color={defined_colors.light_blue}
+            color_pressed={defined_colors.light_blue}>
+                {n}
+            </PlayerButton>
         </SafeAreaView>
     );
 }
