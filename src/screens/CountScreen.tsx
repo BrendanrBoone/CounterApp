@@ -1,6 +1,8 @@
 /**
  * CountScreen.tsx
  * 
+ * 9/2 got in a wreck. had a concussion. keeping up some of that green
+ * 
  * Count Screen component.
  */
 import { useState, useEffect } from "react";
