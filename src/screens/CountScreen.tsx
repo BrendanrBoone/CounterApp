@@ -3,6 +3,7 @@
  * 
  * 9/2 got in a wreck. had a concussion. keeping up some of that green
  * 9/3 had a lot of rest. another green. can't code much at all rn. cuz its a screen
+ * 9/5 fuck
  * 
  * Count Screen component.
  */
