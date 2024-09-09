@@ -6,6 +6,7 @@
  * 9/5 fuck I missed yesterday
  * 9/6 another day after the wreck. another line of green
  * 9/8 no shot I missed 9/7 right? that was on the PC?
+ *     dam, ok. start programing now. not a comment line. actually code
  * 
  * Count Screen component.
  */
