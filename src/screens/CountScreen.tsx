@@ -5,6 +5,7 @@
  * 9/3 had a lot of rest. another green. can't code much at all rn. cuz its a screen
  * 9/5 fuck I missed yesterday
  * 9/6 another day after the wreck. another line of green
+ * 9/8 no shot I missed 9/7 right? that was on the PC?
  * 
  * Count Screen component.
  */
