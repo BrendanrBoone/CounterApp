@@ -10,13 +10,11 @@
  * 
  * Count Screen component.
  */
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
     StyleSheet,
-    View,
     SafeAreaView
 } from "react-native";
-import { DemoButton } from "../components/ui/DemoButton";
 import defined_colors from "../components/ui/colors";
 import { PlayerButton } from "../components/ui/PlayerButton";
 
