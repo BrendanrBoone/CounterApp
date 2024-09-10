@@ -7,6 +7,7 @@
  * 9/6 another day after the wreck. another line of green
  * 9/8 no shot I missed 9/7 right? that was on the PC?
  *     dam, ok. start programing now. not a comment line. actually code
+ * 9/9 one more day. I've been playing tekken. its fun
  * 
  * Count Screen component.
  */
